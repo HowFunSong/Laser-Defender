@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e5ffba18d79f749bcc4a204d8cd0ea, type: 3}
+  m_Name: RankConfSO
+  m_EditorClassIdentifier: 
+  rankSprites:
+  - {fileID: 21300000, guid: b9f359f0f4566d749870f0073fad3833, type: 3}
+  - {fileID: 21300000, guid: 79eac30e9e53d5c48b43a7d4802535bb, type: 3}
+  - {fileID: 21300000, guid: 7f9ece7cbd2da994481a726ff3531e74, type: 3}
+  - {fileID: 21300000, guid: 591f0e956bf1ef14ab0714d06353262f, type: 3}
+  titles:
+  - Useless! Useless! Useless! Useless! Useless! Useless!
+  - Never Gonna Give You Up
+  - I Will Win!
+  - Starburst Stream! Hold 10 second for me...
+  playerNames:
+  - Jordan
+  - Morgan
+  - Riley
+  - Alex
+  - Cameron
+  - Taylor
+  - Jordan
+  - Quinn
+  - 'Casey '
+  - Charlie
+  scores: 080800009d07000071070000260700008b0600005406000012060000e1050000ab0500001d060000
