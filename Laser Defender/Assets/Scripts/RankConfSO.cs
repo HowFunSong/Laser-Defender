@@ -14,7 +14,7 @@ public class RankConfSO : ScriptableObject
         return rankSprites[rank];
     }
 
-    public string GetSubtile(int rank) 
+    public string GetSubtitle(int rank) 
     {
         return titles[rank]; 
     }
@@ -53,5 +53,22 @@ public class RankConfSO : ScriptableObject
         return scores;
     }
 
+    public void UpdateTop10(List<KeyValuePair<string, int>> leaderboard)
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            if (i < leaderboard.Count)
+            {
+                playerNames[i] = leaderboard[i].Key;
+                scores[i] = leaderboard[i].Value;
+            }
+            else
+            {
+                playerNames[i] = "";
+                scores[i] = 0;
+            }
+            Debug.Log("Updated rank " + (i + 1) + ": " + playerNames[i] + " - " + scores[i]);
+        }
+    }
 
 }

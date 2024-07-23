@@ -7,16 +7,35 @@ using UnityEngine;
 public class UIRankMenu : MonoBehaviour
 {
     [SerializeField] RankConfSO rankConfSO;
+    [SerializeField] ScoreKeeper scoreKeeper;
     [SerializeField] List<TextMeshProUGUI> playerNameTexts;
     [SerializeField] List<TextMeshProUGUI> scoreTexts;
-    
+
+    private void Awake()
+    {
+        scoreKeeper = FindObjectOfType<ScoreKeeper>();
+    }
+
     private void Start()
     {
         GetTextField();
-        Rank();    
+        ClearAllText();
+        RefreshLeaderBoard();
     }
 
-    public void Rank()
+    public void RefreshLeaderBoard()
+    {
+        StartCoroutine(RefreshLeaderBoardCoroutine());
+    }
+
+    private IEnumerator RefreshLeaderBoardCoroutine()
+    {
+        yield return scoreKeeper.GetLeaderboardCoroutine();
+        Rank();
+    }
+
+
+    private void Rank()
     {
         rankConfSO.SortScores();
 
@@ -52,7 +71,25 @@ public class UIRankMenu : MonoBehaviour
             }
         }
     }
+    public void ClearAllText()
+    {
+        ClearPlayerText();
+        ClearScoreText();
+    }
 
+    private void ClearScoreText()
+    {
+        foreach (var text in scoreTexts)
+        {
+            text.text = string.Empty;
+        }
+    }
 
-
+    private void ClearPlayerText()
+    {
+        foreach (var text in playerNameTexts)
+        {
+            text.text = string.Empty;
+        }
+    }
 }

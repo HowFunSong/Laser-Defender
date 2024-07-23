@@ -315,7 +315,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Better Launch Next Time
+  m_text: I,Madara, declare you the strongest
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2d3c80ed9b804d64b9745db728755e7a, type: 2}
   m_sharedMaterial: {fileID: 2167240838496907802, guid: 2d3c80ed9b804d64b9745db728755e7a, type: 2}
@@ -576,7 +576,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 591f0e956bf1ef14ab0714d06353262f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1dd58bb0a534f6c4b842fadbf420c12a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

@@ -24,14 +24,8 @@ public class EnemyMovement : MonoBehaviour
         enemyTransform = GetComponent<Transform>();
         if (enemyTransform != null)
         {
-            Debug.Log("Get enemyTransform");
+            //Debug.Log("Get enemyTransform");
         }
-
-        if (enemyTransform != null)
-        {
-            Debug.Log("enemyTransform not found");
-        }
-
     }
 
     private void Update()
