@@ -70,3 +70,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignore specific large files
+Laser Defender/Library/ArtifactDB
+Laser Defender/library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@2.0.9/data~/payload.tar.7z
