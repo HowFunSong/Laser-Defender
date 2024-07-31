@@ -1,5 +1,7 @@
 # Unity 2D Screen Shooter Game
 
+Collaborators:[Yuan](https://github.com/a5650057)
+
 ## Overview
 
 This project is a 2D screen shooter game developed using Unity version 2022.3.3f1. The game features an engaging shooting experience with support for leaderboards to track high scores. The default screen resolution is set to 1080x1920.
