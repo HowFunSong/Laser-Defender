@@ -65,8 +65,8 @@ This project is a 2D screen shooter game developed using Unity version 2022.3.3f
 ## Leaderboards
  
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dc791eed-aa2b-45f8-bf58-89983c3bf6b8" alt="Leaderboards">
-</p>
+  <img src="https://github.com/user-attachments/assets/dc791eed-aa2b-45f8-bf58-89983c3bf6b8" alt="Leaderboards"></p>
+
 1. **View Current/Previous Season Rankings:** Check the high scores for the current and previous seasons.
 2. **Play Again:** Restart the game.
 3. **Refresh Rankings:** Update the leaderboard.
