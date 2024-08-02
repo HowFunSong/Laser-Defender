@@ -27,14 +27,19 @@ This project is a 2D screen shooter game developed using Unity version 2022.3.3f
 2. Extract the downloaded file.
 3. Run the executable to start the game.
 ## Main Screen
-   ![image](https://github.com/user-attachments/assets/67cc0ed1-3a13-450d-b2d7-3e3af2069b5f)
-
+  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/67cc0ed1-3a13-450d-b2d7-3e3af2069b5f" alt="Main Screen">
+</p>
 1. **Enter Game Name:** Input your game name.
 2. **View Leaderboards:** Check the high score rankings.
 3. **Exit Game:** Quit the game.
 
 ## Game Screen
-   ![image](https://github.com/user-attachments/assets/f12d77f6-487d-4d3d-b40e-c6e3eadb8772)
+ 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f12d77f6-487d-4d3d-b40e-c6e3eadb8772" alt="Game Screen">
+</p>
 ### Contorls
 1. **Control Movement:** Use \`WASD\` or the arrow keys for up, down, left, and right movement.
 2. **Normal Attack:** Click the left mouse button or press the spacebar.
@@ -55,8 +60,10 @@ This project is a 2D screen shooter game developed using Unity version 2022.3.3f
 3. **Return to Main Screen:** Go back to the main screen.
 
 ## Leaderboards
-   ![image](https://github.com/user-attachments/assets/dc791eed-aa2b-45f8-bf58-89983c3bf6b8)
-
+ 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dc791eed-aa2b-45f8-bf58-89983c3bf6b8" alt="Leaderboards">
+</p>
 1. **View Current/Previous Season Rankings:** Check the high scores for the current and previous seasons.
 2. **Play Again:** Restart the game.
 3. **Refresh Rankings:** Update the leaderboard.
