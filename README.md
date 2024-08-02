@@ -46,8 +46,8 @@ This project is a 2D screen shooter game developed using Unity version 2022.3.3f
 
 ### Contorls
 1. **Control Movement:** Use  \`WASD\` or the arrow keys for up, down, left, and right movement.
-2. **Normal Attack:** Click the `left mouse button` or press the `spacebar`.
-3. **Special Attack:** Hold `Z` or the `right mouse button` + normal attack. When the energy bar is above the blue line, you can release a powerful laser.
+2. **Normal Attack:** Click the `left mouse button` or press the `space`.
+3. **Special Attack:** Hold `Z` or the `right mouse button` + normal attack(`left mouse button` or `space`). When the energy bar is above the blue line, you can release a powerful laser.
 4. **Configuration 1:** `WASD` for movement + mouse left/right buttons for attacks.
 5. **Configuration 2:** `Space` for normal attack + `Z` for special attack + arrow keys for movement.
 
