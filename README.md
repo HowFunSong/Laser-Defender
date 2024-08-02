@@ -32,8 +32,8 @@ This project is a 2D screen shooter game developed using Unity version 2022.3.3f
 ## Main Screen
   
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/67cc0ed1-3a13-450d-b2d7-3e3af2069b5f" alt="Main Screen">
-</p>
+  <img src="https://github.com/user-attachments/assets/67cc0ed1-3a13-450d-b2d7-3e3af2069b5f" alt="Main Screen"></p>
+
 1. **Enter Game Name:** Input your game name.
 2. **View Leaderboards:** Check the high score rankings.
 3. **Exit Game:** Quit the game.
