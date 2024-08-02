@@ -75,9 +75,8 @@ This project is a 2D screen shooter game developed using Unity version 2022.3.3f
 ### Installation
 
 1. **Clone the Repository:**
-   \`\`\`sh
    
-   git clone https://github.com/HowFunSong/Laser-Defender.git
-   
-   \`\`\`
+ \`\`\`sh
+ git clone https://github.com/HowFunSong/Laser-Defender.git
+ \`\`\`
 
